@@ -8,6 +8,7 @@ public class Book {
         this.author = author;
         this.publishDate = publishDate;
     }
+
     public String getName() {
         return this.name;
     }
@@ -15,9 +16,11 @@ public class Book {
     public Author getAuthor() {
         return this.author;
     }
+
     public int getPublishDate() {
         return this.publishDate;
     }
+
     public void setPublishDate(int publishDate) {
         this.publishDate = publishDate;
     }

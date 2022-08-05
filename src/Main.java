@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+//1st task
         Author author = new Author("Брэм", "Стокер");
         Book book = new Book("Дракула", author, 1888);
         System.out.println("Название: " + book.getName() + "; Автор: " + book.getAuthor() + "; Дата публикации: " + book.getPublishDate());
