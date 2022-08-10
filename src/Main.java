@@ -24,12 +24,12 @@ public class Main {
 
 // переопределение equals для Book по полю author
         Book judgesHouse = new Book("Дом судьи", bramStoker, 1891);
-        if (judgesHouse.equals(warAndPeace)) {
+        if (judgesHouse.equals(dracula)) {
             System.out.println("У книг один и тот же автор");
         } else {
             System.out.println("У книг разные авторы");
         }
-
+// переопределение toString
         System.out.println(judgesHouse);
         System.out.println(joeAbercrombie);
 // hashCode
